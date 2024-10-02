@@ -1,0 +1,11 @@
+header.title {
+  color: rgb(0, 174, 255);
+  background-color: rgb(97, 97, 97);
+  font-size: 60px;
+}
+sub.pequeño {
+  font-size: 20px;
+}
+span.game{
+    font-weight: 600;
+}
