@@ -16,7 +16,7 @@
 		  border-radius: 2px;
 		  background-clip: padding-box;
 		  box-sizing: border-box;
-		  box-shadow: 0 0 10px 10px rgba(218, 4, 4, 0.582);
+		  box-shadow: 0 0 10px 10px rgba(141, 141, 141, 0.582);
 		}
 
 	.gracias:before {
@@ -77,6 +77,10 @@
             cocinado = cocinado.replace(/%E2%82%AC/g," €");
             cocinado = cocinado.replace(/%2C/g, ",");
             cocinado = cocinado.replace(/%40/g, "@");
+            cocinado = cocinado.replace(/%3A/g, ":");
+            cocinado = cocinado.replace(/%3B/g, ";");
+            cocinado = cocinado.replace(/%3C/g, "<");
+            cocinado = cocinado.replace(/%3E/g, ">");
             cocinado = cocinado.split('&');
 
             var html = "<p><strong>";
