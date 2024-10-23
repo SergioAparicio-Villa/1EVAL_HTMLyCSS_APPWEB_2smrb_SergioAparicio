@@ -1,11 +1,43 @@
+
 *{
-    background-color: black
+    background-color:#ff00ff;
 }
-p{
-    color: white;
+h1, address {
+    background-color:#FFDE00;
+}
+
+p.negro{
+    background-color:#000000;
+    color: #ffffff;
+}
+div ol,li{
+    background-color:#000000;
+}
+
+p#amarillo{
+    background-color: #FFDE00;
+    color: #000000;
 }
 div{
-    border:10px rgb(0, 136, 255) dotted;
-    margin: 100px;
-    padding-left: 400px;
+    border-color: #ff0000a2;
+    border-width: 10px;
+    border-style:groove;
+    border-right: #ffffff dotted;
+}
+div p{
+    background-color:#000000;
+    color: #ffffff;
+}
+div ol{
+    color: #ffffff;
+}
+div{
+    border: silver 40px solid;
+    border-image-source: url(https://www.mclibre.org/consultar/htmlcss/css/ejemplos/img/css3-bordes/hormigas-210.png);
+    
+    border-image-slice: 70;
+    border-image-repeat: repeat;
+
+  padding: 10px;
+  text-align: justify;
 }
