@@ -1,0 +1,25 @@
+*{
+    vertical-align: middle;
+    letter-spacing: 1px;
+}
+mark{
+    letter-spacing: 2px;
+    word-spacing: -5px;
+    text-transform:lowercase ;
+}
+span{
+    text-decoration:line-through;
+    text-transform: uppercase;
+}
+p.p1{
+  line-height: 200%;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  font-style:oblique;
+}
+p.p2{
+  line-height: 300%;
+  font-size: larger;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style:italic
+}
