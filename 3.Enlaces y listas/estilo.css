@@ -1,0 +1,9 @@
+ul.smiley {
+    list-style-image: url("smiley.png");
+}ul.blank {
+    list-style:none;
+}
+li.right{
+
+    float:left;
+}
