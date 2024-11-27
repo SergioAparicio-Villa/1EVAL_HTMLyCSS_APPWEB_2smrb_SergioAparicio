@@ -31,7 +31,7 @@ nav{
 }
 .nav-item:hover{
     background-color: rgb(31, 51, 51);
-    border-radius: 20px;
+    border-radius: 90px;
     transition: 1s;
 }
 .fixed-sidebar{
