@@ -1,9 +1,13 @@
 
 *{
-    background-color:#ff00ff;
+    background-color:#989898;
 }
 h1, address {
-    background-color:#FFDE00;
+    background-color: #474747;
+}
+h2{
+    background-color:#000000;
+    color: #ffffff;
 }
 
 p.negro{
@@ -14,15 +18,9 @@ div ol,li{
     background-color:#000000;
 }
 
-p#amarillo{
-    background-color: #FFDE00;
+p#gris{
+    background-color: #474747;
     color: #000000;
-}
-div{
-    border-color: #ff0000a2;
-    border-width: 10px;
-    border-style:groove;
-    border-right: #ffffff dotted;
 }
 div p{
     background-color:#000000;
@@ -40,4 +38,7 @@ div{
 
   padding: 10px;
   text-align: justify;
+}
+hr{
+    height: 100px; /*Porque si*/
 }
